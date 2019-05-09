@@ -1,0 +1,2190 @@
+{
+  "name": "Mr. Interviewer",
+  "intents": [
+    {
+      "intent": "ds_answer4",
+      "examples": [
+        {
+          "text": "Logistic regression is a classification algorithm used to assign observations to a discrete set of classes."
+        },
+        {
+          "text": "In statistics, the logistic model is a widely used statistical model that in its basic form uses a logistic function to model a binary dependent variable, although many more complex extensions exist. In regression analysis, logistic regression is estimating the parameters of a logistic model."
+        },
+        {
+          "text": "Logistic regression is the appropriate regression analysis to conduct when the dependent variable is dichotomous."
+        }
+      ],
+      "description": "What is meant by Logistic Regression?"
+    },
+    {
+      "intent": "generalq2",
+      "examples": [
+        {
+          "text": "This field has always captivated my mind and especially with the boom of technology and innovation that is happening"
+        },
+        {
+          "text": "I'm pursuing this career because I have had great interest in CS for a long time and I'm enjoy coding"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "generalq1",
+      "examples": [],
+      "description": ""
+    },
+    {
+      "intent": "misc_response",
+      "examples": [
+        {
+          "text": "Maybe"
+        },
+        {
+          "text": "I don't know"
+        },
+        {
+          "text": "I'm unsure"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "ready_for_interview",
+      "examples": [
+        {
+          "text": "yes"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "ds_answer1",
+      "examples": [
+        {
+          "text": "Data science is a multi-disciplinary field that uses scientific methods, processes, algorithms and systems to extract knowledge and insights from structured and unstructured data."
+        },
+        {
+          "text": "Data science, in its most basic terms, can be defined as obtaining insights and information, really anything of value, out of data."
+        },
+        {
+          "text": "The ability to take data — to be able to understand it, to process it, to extract value from it, to visualize it, to communicate it — that’s going to be a hugely important skill in the next decades."
+        }
+      ],
+      "description": "What is DS?"
+    },
+    {
+      "intent": "ds_answer3",
+      "examples": [
+        {
+          "text": "A Recommender System refers to a system that is capable of predicting the future preference of a set of items for a user, and recommend the top items."
+        },
+        {
+          "text": "The goal of a Recommender System is to generate meaningful recommendations to a collection of users for items or products that might interest them."
+        },
+        {
+          "text": "These systems aim to predict users’ interests and recommend items that quite likely are interesting for them."
+        }
+      ],
+      "description": "What is a Recommender System?"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "question5_answer",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Java.Lang.throwable",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "topic",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "general",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "python",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "data science",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "java",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "ds_ans3",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "filtering system",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "predict",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "rating",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "information",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "preference",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "question3_answer",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "association",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "ds_ans4",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "binary",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "predict",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "statistical",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "technique",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "model",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "analyse",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "ans2",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "High",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Keep",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "b",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Blue",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Flag",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Flying",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "question4_answers",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "binding",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "processing",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "question1_answer",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "30Javatpoint",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "ans4",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "3",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "ds_ans2",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "data analysis",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Python",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "high level",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Pandas",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "path",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "computer science",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "software engineering",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "ans3",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "question2_answers",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "static",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "block",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "ds_ans5",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "MapReduce",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "HDFS",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "YARN",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "ans5",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "b",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "c",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "d",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "ans",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "monkey_f",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "ds_ans1",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "scientific method",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "extract knowledge",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "algorithm",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "structured",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "unstructured",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-person",
+      "values": []
+    }
+  ],
+  "language": "en",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    }
+  },
+  "description": "",
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "1_Incorrect",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "There is a better way to frame your answer:"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": "Data science is a multi-disciplinary field that uses scientific methods, processes, algorithms and systems to extract knowledge and insights from structured and unstructured data."
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": "Let's move onto question 2:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_3_1557342195733",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1557342909007"
+      },
+      "conditions": "@ds_ans1 != 'scientific method' || @ds_ans1 != 'extract knowledge' || @ds_ans1 != 'algorithm' || @ds_ans1 != 'unstructured' || @ds_ans1 != 'structured'",
+      "dialog_node": "node_5_1557343110708",
+      "previous_sibling": "node_1_1557342749156"
+    },
+    {
+      "type": "standard",
+      "title": "1_Correct",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You have answered correctly!"
+              },
+              {
+                "text": "Let's move onto question 2:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_3_1557342195733",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1557342909007"
+      },
+      "conditions": "@ds_ans1:(scientific method) && @ds_ans1:(extract knowledge) && @ds_ans1:algorithm && @ds_ans1:unstructured && @ds_ans1:structured || #ds_answer1",
+      "dialog_node": "node_1_1557342749156"
+    },
+    {
+      "type": "standard",
+      "title": "Q#3 Incorrect",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "That is incorrect. The right answer is: Association"
+              },
+              {
+                "text": "Moving on..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_4_1557179712293",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1557184038147"
+      },
+      "conditions": "@question3_answer != 'association'",
+      "dialog_node": "node_2_1557269957492",
+      "previous_sibling": "node_1_1557269955029"
+    },
+    {
+      "type": "standard",
+      "title": "Q#3 Correct",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "That's the correct answer. Well done!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1557179712293",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1557184038147"
+      },
+      "conditions": "@question3_answer:association",
+      "dialog_node": "node_1_1557269955029"
+    },
+    {
+      "type": "standard",
+      "title": "Python_Q5wrong_ans",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No, you entered the wrong answer."
+              },
+              {
+                "text": "The right options are b, c, d"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_8_1557280744511",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1557271996977"
+      },
+      "conditions": "@ans5 != 'c' || @ans5 != 'b' || @ans5 != 'd'",
+      "dialog_node": "node_10_1557280777599",
+      "previous_sibling": "node_9_1557280756418"
+    },
+    {
+      "type": "standard",
+      "title": "Python_Q5Correct_ans",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Yes, your answer is correct!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_8_1557280744511",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1557271996977"
+      },
+      "conditions": "@ans5:b && @ans5:c && @ans5:d",
+      "dialog_node": "node_9_1557280756418"
+    },
+    {
+      "type": "standard",
+      "title": "2_Incorrect",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry, this is a wrong answer!"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": "The correct answer is:"
+              },
+              {
+                "text": "Python would be the best option because it has Pandas library that provides easy to use data structures and high-performance data analysis tools. R is more suitable for machine learning than just text analysis. Python performs faster for all types of text analytics."
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": "Let's move onto question 3..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_2_1557342909007",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1557342921258"
+      },
+      "conditions": "@ds_ans2 != 'Python'",
+      "dialog_node": "node_3_1557342975522",
+      "previous_sibling": "node_2_1557342973545"
+    },
+    {
+      "type": "standard",
+      "title": "2_Correct",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You have answered correctly!"
+              },
+              {
+                "text": "Let's move onto question 3..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_2_1557342909007",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1557342921258"
+      },
+      "conditions": "@ds_ans2:Python",
+      "dialog_node": "node_2_1557342973545"
+    },
+    {
+      "type": "standard",
+      "title": "3_Incorrect",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry, this is the wrong answer!"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": "The correct answer is:"
+              },
+              {
+                "text": "A recommender system or a recommendation system is a subclass of information filtering system that seeks to predict the \"rating\" or \"preference\" a user would give to an item. They are primarily used in commercial applications."
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": "Let's move onto question 4..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_3_1557342921258",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1557342937506"
+      },
+      "conditions": "@ds_ans3 != 'preference' || @ds_ans3 != 'filtering system' || @ds_ans3 != 'predict' || @ds_ans3 != 'rating' || @ds_ans3 != 'information'",
+      "dialog_node": "node_5_1557342997682",
+      "previous_sibling": "node_4_1557342994721"
+    },
+    {
+      "type": "standard",
+      "title": "3_Correct",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You have answered correctly!"
+              },
+              {
+                "text": "Let's move onto question 4..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_3_1557342921258",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1557342937506"
+      },
+      "conditions": "@ds_ans3:preference && @ds_ans3:(filtering system) && @ds_ans3:predict && @ds_ans3:rating && @ds_ans3:information",
+      "dialog_node": "node_4_1557342994721"
+    },
+    {
+      "type": "standard",
+      "title": "Q#4 Incorrect",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "That is incorrect. "
+              },
+              {
+                "text": "The correct response is: Processing and Binding"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_5_1557184038147",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1557271981171"
+      },
+      "conditions": "@question4_answers != 'processing' || @question4_answers != 'binding'",
+      "dialog_node": "node_4_1557270854033",
+      "previous_sibling": "node_3_1557270850992"
+    },
+    {
+      "type": "standard",
+      "title": "Q#4 Correct",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "That is correct, moving on to the final question..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1557184038147",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1557271981171"
+      },
+      "conditions": "@question4_answers:processing && @question4_answers:binding",
+      "dialog_node": "node_3_1557270850992"
+    },
+    {
+      "type": "standard",
+      "title": "Python_Q3Wrong_ans",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry... 'Yes' is the correct answer."
+              },
+              {
+                "text": "Here is your next question."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_6_1557280717547",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1557280735368"
+      },
+      "conditions": "@ans3:no",
+      "dialog_node": "node_14_1557280840690",
+      "previous_sibling": "node_13_1557280829150"
+    },
+    {
+      "type": "standard",
+      "title": "Python_Q3Correct_ans",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Yay! Let's keep it going..."
+              },
+              {
+                "text": "Your next question is:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_6_1557280717547",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1557280735368"
+      },
+      "conditions": "@ans3:yes",
+      "dialog_node": "node_13_1557280829150"
+    },
+    {
+      "type": "standard",
+      "title": "Python_Q2Wrong_ans",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry your answer is wrong. the right answer is "
+              },
+              {
+                "text": "b)//\n"
+              },
+              {
+                "text": "Here is your next question:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_5_1557280707191",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1557280717547"
+      },
+      "conditions": "@ans2 != 'b'",
+      "dialog_node": "node_16_1557280873185",
+      "previous_sibling": "node_15_1557280858053"
+    },
+    {
+      "type": "standard",
+      "title": "Python_Q2Correct_ans",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "YAY! Your answer is correct."
+              },
+              {
+                "text": "Here is your next question:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_5_1557280707191",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1557280717547"
+      },
+      "conditions": "@ans2:b",
+      "dialog_node": "node_15_1557280858053"
+    },
+    {
+      "type": "standard",
+      "title": "Python_Q4Wrong_ans",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry! The output you entered is wrong."
+              },
+              {
+                "text": "The right output is 3."
+              },
+              {
+                "text": "Here is your next question"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_7_1557280735368",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1557280744511"
+      },
+      "conditions": "@ans4 !=3",
+      "dialog_node": "node_12_1557280814622",
+      "previous_sibling": "node_11_1557280796868"
+    },
+    {
+      "type": "standard",
+      "title": "Python_Q4Correct_ans",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Yes! The output is 3. You are on right track!"
+              },
+              {
+                "text": "Here is your next question:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_7_1557280735368",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1557280744511"
+      },
+      "conditions": "@ans4:3",
+      "dialog_node": "node_11_1557280796868"
+    },
+    {
+      "type": "standard",
+      "title": "Q#5 Incorrect",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "That is incorrect! The right answer is: Java.Lang.throwable"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1557271981171",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1557271996977"
+      },
+      "conditions": "@question5_answer != 'Java.Lang.throwable'",
+      "dialog_node": "node_8_1557272080164",
+      "previous_sibling": "node_7_1557272077646"
+    },
+    {
+      "type": "standard",
+      "title": "Q#5 Correct",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "That's correct! "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1557271981171",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1557271996977"
+      },
+      "conditions": "@question5_answer:Java.Lang.throwable",
+      "dialog_node": "node_7_1557272077646"
+    },
+    {
+      "type": "standard",
+      "title": "4_Incorrect",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry, this is a wrong answer!"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": "The correct answer is:"
+              },
+              {
+                "text": "It is a statistical technique or a model in order to analyze a dataset and predict the binary outcome."
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": "Let's move onto question 5..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_4_1557342937506",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1557342964461"
+      },
+      "conditions": "@ds_ans4 != 'statistical' || @ds_ans4 != 'binary' || @ds_ans4 != 'analyse' || @ds_ans4 != 'predict' || @ds_ans4 != 'predict' || @ds_ans4 != 'technique'",
+      "dialog_node": "node_2_1557343038924",
+      "previous_sibling": "node_1_1557343034814"
+    },
+    {
+      "type": "standard",
+      "title": "4_Correct",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You have answered correctly!"
+              },
+              {
+                "text": "Let's move onto question 5..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1557342937506",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1557342964461"
+      },
+      "conditions": "@ds_ans4:statistical && @ds_ans4:binary && @ds_ans4:analyse && @ds_ans4:predict && @ds_ans4:technique",
+      "dialog_node": "node_1_1557343034814"
+    },
+    {
+      "type": "standard",
+      "title": "Q#2 (I don't know)",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay, so the answer for this..."
+              },
+              {
+                "text": "Yes, you can by using static block"
+              },
+              {
+                "text": "Let's keep it going..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_5_1557177645927",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1557179712293"
+      },
+      "conditions": "#misc_response",
+      "dialog_node": "node_3_1557179606547",
+      "previous_sibling": "node_2_1557179591381"
+    },
+    {
+      "type": "standard",
+      "title": "Q#2 Incorrect",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "That's wrong."
+              },
+              {
+                "text": "The right answer is: Yes, using static block"
+              },
+              {
+                "text": "Let's proceed..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_5_1557177645927",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1557179712293"
+      },
+      "conditions": "@question2_answers != 'static' || @question2_answers != 'block'",
+      "dialog_node": "node_2_1557179591381",
+      "previous_sibling": "node_1_1557179580980"
+    },
+    {
+      "type": "standard",
+      "title": "Q#2 Correct",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Wow, that's correct!"
+              },
+              {
+                "text": "Next question..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_5_1557177645927",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1557179712293"
+      },
+      "conditions": "@question2_answers:static && @question2_answers:block",
+      "dialog_node": "node_1_1557179580980"
+    },
+    {
+      "type": "standard",
+      "title": "General Q2 Answer and Q3",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay good good! So why should we hire you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1557357047741",
+      "metadata": {},
+      "conditions": "#generalq2",
+      "dialog_node": "node_6_1557360061584",
+      "previous_sibling": "node_3_1557357203245"
+    },
+    {
+      "type": "standard",
+      "title": "General Q3 Answer",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Well, you seem to be answering these questions well. Come back later for new questions to test yourself on..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1557357047741",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1557271996977"
+      },
+      "dialog_node": "node_7_1557360880167",
+      "previous_sibling": "node_6_1557360061584"
+    },
+    {
+      "type": "standard",
+      "title": "General Q1 Answer and Q2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi $username! Wow, that's good to know! Why are you pursuing a career in $field?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1557357047741",
+      "context": {
+        "field": "@path.literal",
+        "username": "@sys-person.literal"
+      },
+      "metadata": {},
+      "conditions": "@sys-person || @path",
+      "dialog_node": "node_3_1557357203245"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "That is incorrect. The right answer is:"
+              },
+              {
+                "text": "30Javatpoint\nJavatpoint1020"
+              },
+              {
+                "text": "Don't worry, let's move on..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1557177484750",
+      "disabled": true,
+      "metadata": {},
+      "conditions": "@question1_answer != '30Javatpoint'",
+      "dialog_node": "node_7_1557178366781"
+    },
+    {
+      "type": "standard",
+      "title": "5_Correct",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry, this is a wrong answer..."
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": "The correct answer is:"
+              },
+              {
+                "text": "The Hadoop Distributed File System (HDFS), MapReduce, and YARN."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_1_1557342964461",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1557271996977"
+      },
+      "conditions": "@ds_ans5 != 'HDFS' || @ds_ans5 != 'YARN' || @ds_ans5 != 'MapReduce'",
+      "dialog_node": "node_4_1557343070230",
+      "previous_sibling": "node_3_1557343056406"
+    },
+    {
+      "type": "standard",
+      "title": "5_Correct",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You have answered correctly!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_1_1557342964461",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1557271996977"
+      },
+      "conditions": "@ds_ans5:HDFS && @ds_ans5:YARN && @ds_ans5:MapReduce",
+      "dialog_node": "node_3_1557343056406"
+    },
+    {
+      "type": "standard",
+      "title": "General Begin",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1557183817240",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1557357047741"
+      },
+      "conditions": "@topic:general",
+      "dialog_node": "node_1_1557356975737",
+      "previous_sibling": "node_1_1557342105245"
+    },
+    {
+      "type": "standard",
+      "title": "Data Science Begin",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1557183817240",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1557342195733"
+      },
+      "conditions": "@topic:(data science)",
+      "dialog_node": "node_1_1557342105245",
+      "previous_sibling": "node_4_1557183938090"
+    },
+    {
+      "type": "standard",
+      "title": "Java Begin",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1557183817240",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1557177211615"
+      },
+      "conditions": "@topic:java",
+      "dialog_node": "node_4_1557183938090",
+      "previous_sibling": "node_3_1557183872512"
+    },
+    {
+      "type": "standard",
+      "title": "Python Begin",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1557183817240",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1557280293132"
+      },
+      "conditions": "@topic:python",
+      "dialog_node": "node_3_1557183872512"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "That's correct. Good job!"
+              },
+              {
+                "text": "Moving on..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_2_1557177471560",
+      "disabled": true,
+      "metadata": {},
+      "conditions": "@question1_answer:(30Javatpoint Javatpoint1020)",
+      "dialog_node": "node_6_1557178161066"
+    },
+    {
+      "type": "standard",
+      "title": "Q#1 (I don't know)",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Don't fret, this is the correct response:"
+              },
+              {
+                "text": "30Javatpoint"
+              },
+              {
+                "text": "Moving on..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1557177211615",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1557177645927"
+      },
+      "conditions": "#misc_response",
+      "dialog_node": "node_4_1557177493465",
+      "previous_sibling": "node_3_1557177484750"
+    },
+    {
+      "type": "standard",
+      "title": "Q#1 Incorrect",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "That is incorrect. The right answer is:"
+              },
+              {
+                "text": "30Javatpoint"
+              },
+              {
+                "text": "Don't worry, let's move on..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_1_1557177211615",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1557177645927"
+      },
+      "conditions": "@question1_answer != '30Javatpoint'",
+      "dialog_node": "node_3_1557177484750",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_2_1557177471560"
+    },
+    {
+      "type": "standard",
+      "title": "Q#1 Correct",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "That's correct. Good job!"
+              },
+              {
+                "text": "Moving on..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_1_1557177211615",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1557177645927"
+      },
+      "conditions": "@question1_answer:30Javatpoint",
+      "dialog_node": "node_2_1557177471560",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "standard",
+      "title": "WrongPythonQ1ans",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No! The answer that you have given is wrong."
+              },
+              {
+                "text": "The correct answer is monkey_f"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_1_1557280293132",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1557280707191"
+      },
+      "conditions": "@ans != 'monkey_f'",
+      "dialog_node": "node_4_1557280619741",
+      "previous_sibling": "node_2_1557280439576"
+    },
+    {
+      "type": "standard",
+      "title": "CorrectPythonQ1ans",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Yay! Your answer is correct!"
+              },
+              {
+                "text": "Here is your next question:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_1_1557280293132",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1557280707191"
+      },
+      "conditions": "@ans:monkey_f",
+      "dialog_node": "node_2_1557280439576"
+    },
+    {
+      "type": "standard",
+      "title": "DS_Q2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Which language is more suitable for text analysis, R or Python?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "metadata": {},
+      "dialog_node": "node_2_1557342909007",
+      "previous_sibling": "node_3_1557342195733"
+    },
+    {
+      "type": "standard",
+      "title": "Question #4",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is the 4th question..."
+              },
+              {
+                "text": "What is the difference between JAXP and JAXB?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "metadata": {},
+      "dialog_node": "node_5_1557184038147",
+      "previous_sibling": "node_4_1557179712293"
+    },
+    {
+      "type": "standard",
+      "title": "DS_Q1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is your first question:"
+              },
+              {
+                "text": "What is Data Science?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "metadata": {},
+      "dialog_node": "node_3_1557342195733",
+      "previous_sibling": "node_8_1557280744511"
+    },
+    {
+      "type": "standard",
+      "title": "DS_Q3",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What is a Recommender System?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "metadata": {},
+      "dialog_node": "node_3_1557342921258",
+      "previous_sibling": "node_2_1557342909007"
+    },
+    {
+      "type": "standard",
+      "title": "DS_Q4",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What is meant by Logistic Regression?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "metadata": {},
+      "dialog_node": "node_4_1557342937506",
+      "previous_sibling": "node_3_1557342921258"
+    },
+    {
+      "type": "standard",
+      "title": "Question #5",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The final question is:"
+              },
+              {
+                "text": "5. What is the base classes of all exception classes?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "metadata": {},
+      "dialog_node": "node_5_1557271981171",
+      "previous_sibling": "node_5_1557184038147"
+    },
+    {
+      "type": "standard",
+      "title": "Python_Q4",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Question 4:"
+              },
+              {
+                "text": " How do you calculate percentiles with Python/ NumPy?\nfind the output for the following code\n\nimport numpy as np\na = np.array([1,2,3,4,5])\np = np.percentile(a, 50)  #Returns 50th percentile, e.g. median\nprint(p)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "metadata": {},
+      "dialog_node": "node_7_1557280735368",
+      "previous_sibling": "node_6_1557280717547"
+    },
+    {
+      "type": "standard",
+      "title": "Python_Q3",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "How to get indices of N maximum values in a NumPy array?\nIs the following code correct for the indices of N maximum values in a NumPy array \nimport numpy as np\narr = np.array([1, 3, 2, 4, 5])\nprint(arr.argsort()[-3:][::-1])"
+              },
+              {
+                "text": "Respond with yes or no"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "metadata": {},
+      "dialog_node": "node_6_1557280717547",
+      "previous_sibling": "node_5_1557280707191"
+    },
+    {
+      "type": "standard",
+      "title": "Python_Q5",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Question 5:"
+              },
+              {
+                "text": "Which of the following statements create a dictionary? (Multiple Correct Answers Possible)\n"
+              },
+              {
+                "text": "a) d = {}\nb) d = {“john”:40, “peter”:45}\nc) d = {40:”john”, 45:”peter”}\nd) d = (40:”john”, 45:”50”)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "metadata": {},
+      "dialog_node": "node_8_1557280744511",
+      "previous_sibling": "node_7_1557280735368"
+    },
+    {
+      "type": "standard",
+      "title": "Python_Q1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is your first question:"
+              },
+              {
+                "text": "Find the output for the following code:"
+              },
+              {
+                "text": "\n# m.py\nclass MyClass:\ndef f(self):\nprint \"f()\"\nWe can then run the monkey-patch testing like this:\n\nimport m\ndef monkey_f(self):\nprint \"monkey_f()\"\n \nm.MyClass.f = monkey_f\nobj = m.MyClass()\nobj.f()"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "metadata": {},
+      "dialog_node": "node_1_1557280293132",
+      "previous_sibling": "node_5_1557271981171"
+    },
+    {
+      "type": "standard",
+      "title": "Topic Selection",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay, so let's get started! Which topic do you want to prepare for?"
+              },
+              {
+                "text": "Java,"
+              },
+              {
+                "text": "Python,"
+              },
+              {
+                "text": "Data Science,"
+              },
+              {
+                "text": "General..."
+              },
+              {
+                "text": "Please enter one..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#ready_for_interview",
+      "dialog_node": "node_2_1557183817240",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "DS_Q5",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What are main components of the Hadoop framework?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "metadata": {},
+      "dialog_node": "node_1_1557342964461",
+      "previous_sibling": "node_4_1557342937506"
+    },
+    {
+      "type": "standard",
+      "title": "Question #3",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Composition and Aggregation are 2 forms of what?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "dialog_node": "node_4_1557179712293",
+      "previous_sibling": "node_5_1557177645927"
+    },
+    {
+      "type": "standard",
+      "title": "Thank You",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thank you for taking your desired Mock Interview with me ! Hope to see you back soon, till then I'll be ready with newer questions :)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Welcome"
+      },
+      "dialog_node": "node_6_1557271996977",
+      "previous_sibling": "node_2_1557357047741"
+    },
+    {
+      "type": "standard",
+      "title": "Anything Else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_6_1557271996977"
+    },
+    {
+      "type": "standard",
+      "title": "General Q1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay, let's get started!"
+              },
+              {
+                "text": "1. Can you tell me a little about yourself?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "metadata": {},
+      "dialog_node": "node_2_1557357047741",
+      "previous_sibling": "node_1_1557342964461"
+    },
+    {
+      "type": "standard",
+      "title": "Question #1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "1. What is the output of this program?"
+              },
+              {
+                "text": "class Test   \n{  \n    public static void main (String args[])   \n    {  \n        System.out.println(10 + 20 + \"Javatpoint\");  \n    }  \n}  "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "metadata": {},
+      "dialog_node": "node_1_1557177211615",
+      "previous_sibling": "node_2_1557183817240"
+    },
+    {
+      "type": "standard",
+      "title": "Question #2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is question 2:"
+              },
+              {
+                "text": "Can we execute a program without main() method?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "metadata": {},
+      "dialog_node": "node_5_1557177645927",
+      "previous_sibling": "node_1_1557177211615"
+    },
+    {
+      "type": "standard",
+      "title": "Python_Q2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Question 2:"
+              },
+              {
+                "text": "Which one of these is floor division?\n"
+              },
+              {
+                "text": "a) /\nb) //\nc) %\nd) None of the mentioned\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "metadata": {},
+      "dialog_node": "node_5_1557280707191",
+      "previous_sibling": "node_1_1557280293132"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi, I am the Interview Training Bot!"
+              },
+              {
+                "text": "Let's get started with the interview preparation. "
+              },
+              {
+                "text": "Respond with 'yes' to proceed..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "workspace_id": "3b68d4c0-3676-46d2-acac-9c01921a7223",
+  "counterexamples": [
+    {
+      "text": "no"
+    }
+  ],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    }
+  },
+  "learning_opt_out": false,
+  "status": "Available"
+}
